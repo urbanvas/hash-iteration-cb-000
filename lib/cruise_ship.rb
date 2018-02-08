@@ -6,7 +6,7 @@
 # suite_e: "Crumpet the Elf"
 # }
 
-def happy_birthday(birthday_kids)
+def select_winner(passengers)
   winner = ""
   passengers.each do |suite, name|
     if suite == :suite_a && name.start_with?("A")
@@ -14,5 +14,5 @@ def happy_birthday(birthday_kids)
     end
   end
 
-  winner  
+  winner
 end
